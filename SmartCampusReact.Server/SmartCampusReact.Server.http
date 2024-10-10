@@ -1,0 +1,6 @@
+@SmartCampusReact.Server_HostAddress = http://localhost:5153
+
+GET {{SmartCampusReact.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
