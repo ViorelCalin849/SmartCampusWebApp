@@ -24,7 +24,8 @@ body, html {
     padding: 2em; /* Increase padding for better spacing */
     border-radius: 10px; /* Round the corners a bit more */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
-    background-color: rgba(0, 0, 0, 0.5); /* Dark background with transparency */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background with transparency .........*/
+    
 }
 
 .login-heading {
