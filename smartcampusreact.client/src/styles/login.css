@@ -89,8 +89,9 @@ body, html {
 }
 
 .register-container {
-    text-align: center; /* Center the register text */
+    text-align: center; /* Center the text */
     margin-top: 1em; /* Add space above the register section */
+    width: 100%; /* Ensure the width is 100% of the parent */
 }
 
 .forgot-password-link,

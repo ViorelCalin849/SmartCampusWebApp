@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './styles/Login.css'; // Import the CSS file
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -68,9 +69,7 @@ function Login() {
             </form>
             <br />
             <br />
-            <div className="register-container">
-                <p>Do you have an account? <a href="#" className="create-account-link">Register</a></p>
-            </div>
+                <p>Do you have an account? <Link to="/register" className="create-account-link">Register</Link></p>
         </div>
     );
 }
